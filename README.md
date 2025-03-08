@@ -9,9 +9,8 @@ A simple and efficient URL shortener built with Laravel. This application allows
 - **Shorten URLs**: Convert long URLs into short, easy-to-share links.
 - **Redirection**: Redirect users from the short URL to the original URL.
 - **Analytics**: Track the number of redirections and view detailed logs.
-- **Caching**: Improve performance with Redis or in-memory caching.
+- **Caching**: Improve performance with Redis.
 - **Custom Aliases**: Optionally provide a custom alias for the short URL.
-- **Rate Limiting**: Prevent abuse with built-in rate limiting.
 
 ---
 
@@ -28,10 +27,10 @@ A simple and efficient URL shortener built with Laravel. This application allows
 
 ### Prerequisites
 
-- PHP 8.0 or higher
-- Composer
+- PHP V8.2.12 
+- Composer V2.8.6 
 - MySQL
-- Redis (optional, for caching)
+- Redis for caching
 
 ### Steps
 
